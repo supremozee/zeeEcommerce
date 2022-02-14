@@ -1,0 +1,40 @@
+.container {
+ 
+ position: relative;
+ margin: 55px 0;
+    /* border: 4px solid blue; */
+}
+.form-input {
+   outline: none;
+   border: none;
+   width: 100%;
+   display: block;
+   background-color: white;
+   background: none;
+   margin-top: 20px;
+   border-bottom: 1px solid grey;
+   /* transition: 3s ; */
+   padding: 10px 10px 10px 5px;
+   font-size: 18px;
+   color: grey;
+   
+}
+.form-label {
+    color: grey;
+    font-size: 16px;
+    font-weight: normal;
+    position: absolute;
+    pointer-events: none;
+    left: 10px;
+    top: 10px;
+    transition: 300ms ease all;
+}
+input[type='password'] {
+    letter-spacing: 0.3em;
+  }
+.shrink {
+    position: absolute;
+    top: -14px;
+    font-size: 20px;
+    color: black
+}

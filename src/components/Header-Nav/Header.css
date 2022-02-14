@@ -1,0 +1,36 @@
+*:any-link {
+   text-decoration: none;
+   color: black;
+}
+.header {
+    display: flex;
+    height: 70px;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 2px solid black; */
+    margin-bottom: 10px;
+}
+.logo {
+    height: 100%;
+    width: 70px;
+    padding: 25px;
+    cursor: pointer;
+    /* border: 3px solid blue; */
+}
+.nav-item {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+    justify-content: flex-end;
+    /* margin-right: inherit; */
+    /* border: 3px solid purple; */
+}
+.item {
+    padding: 10px 15px;
+    /* border: 1px solid red; */
+}
+.sticky {
+    position: fixed;
+    width: 100%;
+}

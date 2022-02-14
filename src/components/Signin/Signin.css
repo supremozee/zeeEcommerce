@@ -1,0 +1,16 @@
+.signin {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    width: 35%;
+    box-sizing: border-box;
+}
+.signin > span {
+    margin-top: 15px;
+}
+.form-button{
+    display: flex;
+    margin-top: -12px;
+    justify-content: space-between;
+    box-sizing: border-box;
+}

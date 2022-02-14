@@ -1,0 +1,39 @@
+.Collection-Item {
+    display: flex;
+    flex-direction: column;
+    width: 19%;
+    height: 330px;
+    /* border: 3px solid yellow; */
+    
+    
+}
+/* @media only Screen and (max-width: 800px) {
+     .Collection-Item {
+        width: 19%;
+        height: 330px;
+    }
+} */
+.image {
+    width: 100%;
+    height: 95%;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    }
+  
+
+    .collections-footer {
+        display: flex;
+        width: 100%;
+        height: 5%;
+        justify-content: space-between;
+    
+    }
+    .name {
+        width: 95%;
+        font-size: 18px;
+    }
+    .price {
+        width: 5%;
+    }

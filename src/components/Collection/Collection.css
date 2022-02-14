@@ -1,0 +1,18 @@
+.collection {
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid blue; */
+    height: 380px;
+    margin-bottom: 20px;
+    /* overflow: scroll; */
+}
+.title {
+    font-size: 13px;
+    margin-bottom: 15px;
+}
+.preview {
+    display: flex;
+    /* border: 2px solid pink; */
+    height: 340px;
+    justify-content: space-between;
+}
